@@ -1,9 +1,9 @@
-# 📚 MongoDB Fundamentals – Week 1 Assignment
+# MongoDB Fundamentals – Week 1 Assignment
 
-## 📦 Project Overview
+##  Project Overview
 This project demonstrates the fundamentals of MongoDB including setting up a database, inserting documents, and running CRUD & advanced queries using Node.js.
 
-## 🛠 Prerequisites
+## Prerequisites
 
 Ensure the following are installed on your system:
 
@@ -11,14 +11,14 @@ Ensure the following are installed on your system:
 - MongoDB (Local or Atlas cluster)
 - NPM (Node Package Manager)
 
-## 📁 Files Included
+##  Files Included
 
 - `insert_books.js` – Script to insert sample books into the `plp_bookstore` database.
 - `queries.js` – Script containing MongoDB queries for CRUD and advanced operations.
 - `README.md` – This file (how to run the project).
 - `screenshot.png` – Screenshot of MongoDB Compass or Atlas showing the collection.
 
-## 📂 Database Structure
+##  Database Structure
 
 - **Database:** `plp_bookstore`
 - **Collection:** `books`
@@ -34,7 +34,7 @@ Ensure the following are installed on your system:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the Repository
 ```bash
