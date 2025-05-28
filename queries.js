@@ -30,8 +30,10 @@ async function runAllTasks() {
     console.log("3.5 Twilight deleted:", deleteTwilight.deletedCount);
 
     const inStockAndRecent = await books.find({
-      in_stock: true,
-      published_year: { $gt: 2010 }
+      $and: [
+        {in_stock: true},
+        {published_year: { $gt: 2010 }}
+        ]
     }).toArray();
     console.log("3.6 In-stock and recent books:", inStockAndRecent);
 
